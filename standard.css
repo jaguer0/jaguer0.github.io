@@ -1,0 +1,89 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin:0;
+    padding:0;
+    color:white;
+    font-family: "Montserrat", "Helvetica Neue";
+    box-sizing: border-box;
+    
+  
+}
+    #hero{ background: red; }
+    #main{ background: whitesmoke; }
+    #resume{ background:#777;}
+    .footer{ background:red; }
+
+    .wrapper {
+      display: flex;
+      flex-flow: row wrap;
+    }
+#hero{
+    display:flex;
+    flex-flow:row wrap;
+    justify-content: center;
+    align-items: center;
+}
+ #hero, #main,#resume, .footer {
+      flex: 1 100%;
+    }
+
+#hero p{
+    font-size:4vh;
+    line-height: 4vh;
+}
+#hero2{
+    order:-1;
+}
+#main{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.aboutme{
+    width:100%;
+    color:black;
+    text-align:center;
+}
+.aboutme img{
+    float:left;
+}
+#resume {
+    display:flex;
+    flex-direction: column;
+    justify-content:center;
+}
+.res {
+    width:100%;
+    display:flex;
+    flex-direction: column;
+    text-align: center;
+}
+.res img{
+    float:left;
+}
+    /* Medium screens
+    @media all and (min-width: 600px) {
+       #hero {
+            align-content: space-between;
+        
+    }
+
+   /* Large screens 
+    @media all and (min-width: 800px) {
+        #hero {
+           align-items: flex-end;
+        
+    }
+      .main { flex: 2 0px; }
+
+      .aside-1 { order: 1; }
+      .main    { order: 2; }
+      .aside-2 { order: 3; }
+      .footer  { order: 4; }
+    }/*
+  
+
+
