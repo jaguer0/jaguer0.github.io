@@ -8,13 +8,14 @@ body {
     color:white;
     font-family: "Montserrat", "Helvetica Neue";
     box-sizing: border-box;
+    line-height: 1.5;
     
   
 }
     #hero{ background: red; }
     #main{ background: whitesmoke; }
-    #resume{ background:#777;}
-    .footer{ background:red; }
+    #resume{ background:#A9A9A9;}
+    #footer{ background:red; }
 
     .wrapper {
       display: flex;
@@ -26,8 +27,8 @@ body {
     justify-content: center;
     align-items: center;
 }
- #hero, #main,#resume, .footer {
-      flex: 1 100%;
+ #hero, #main,#resume, #footer {
+      flex: 2 100%;
     }
 
 #hero p{
@@ -37,32 +38,18 @@ body {
 #hero2{
     order:-1;
 }
-#main{
-    display:flex;
-    flex-direction: column;
-    justify-content: center;
-}
-.aboutme{
-    width:100%;
+.aboutme, .res {
     color:black;
-    text-align:center;
+    text-align: left;
 }
-.aboutme img{
+.aboutme img, .res img{
     float:left;
+    margin:0 3vw 4vw 2vw;
 }
-#resume {
-    display:flex;
-    flex-direction: column;
-    justify-content:center;
-}
-.res {
-    width:100%;
-    display:flex;
-    flex-direction: column;
-    text-align: center;
-}
-.res img{
-    float:left;
+.res ul,li{
+    margin: 2vw;
+    clear:both;
+    
 }
     /* Medium screens
     @media all and (min-width: 600px) {
