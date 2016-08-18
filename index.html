@@ -4,14 +4,20 @@
 <link rel="stylesheet" type="text/css" href="standard.css?v=1.0">
     <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet' type='text/css'>
 <link href='https://fonts.googleapis.com/css?family=Kaushan+Script' rel='stylesheet' type='text/css'>
+    <link href="https://fonts.googleapis.com/css?family=Courgette|Permanent+Marker" rel="stylesheet">
 <script src="https://code.jquery.com/jquery-1.12.4.js"integrity="sha256-Qw82+bXyGq6MydymqBxNPYTaUXXq7c8v3CwiYwLLNXU="   crossorigin="anonymous"></script>
 </head>
+    
+    
+    
 <body>
     <nav>
+        <div id="namelogo">Aguero</div>
+        <div id="nav-container">
         <div><a href="#hero">HOME</a>
         </div><div><a href="#main">ABOUT</a></div>
         <div><a href="#resume">RESUME</a></div>
-        <div><a href="#footer">CONTACT</a></div></nav>
+            <div><a href="#footer">CONTACT</a></div></div></nav>
   <div class="wrapper">
     <header id="hero">
         <div class="hflex" id="hero1"><p>Juan Aguero
@@ -72,7 +78,7 @@ var randomColor = function() {
     var b = safeColors[rand()];
     return "#"+r+g+b;
 };
-   $("#hero,#footer").css('backgroundColor', randomColor);
+   $("#hero").css('backgroundColor', randomColor);
     
 }, 2500);
        
