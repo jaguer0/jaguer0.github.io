@@ -355,6 +355,9 @@ transform: translateY(-4px) rotate(0deg);
     z-index: 1000;
     justify-content: space-between;
         }
+      #hero{
+          margin-top:10vh;
+      }
       #mobileNav{
           display: none;
       }
