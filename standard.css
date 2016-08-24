@@ -130,7 +130,7 @@ h4{
 }
 #namelogo{
     height: 60px;
-    line-height: 60px;
+    line-height: 10vh;
     width:20%;
     text-align: center;
     font-family: 'Courgette', cursive;
@@ -237,10 +237,10 @@ transform: translateY(-4px) rotate(0deg);
     	background-color: rgba(0,0,0,0.9);
 	width: 100%;
 	position: absolute;
-	top: 60px;
+	top: 10vh;
 	left: 0px;
-	padding-top: 9vh;
-	padding-bottom: 15vh;
+	padding-top: 40px;
+	padding-bottom: 60px;
 	display: flex;
     flex-flow: column;
     display: none;
@@ -344,9 +344,8 @@ transform: translateY(-4px) rotate(0deg);
         
         }
 }
-@media all 
-  and (min-width: 900px) { 
-      #nav{
+@media all(min-width:1080){
+       #nav{
             display: inline-flex;
           position:fixed;
     min-width:100%;
@@ -361,6 +360,9 @@ transform: translateY(-4px) rotate(0deg);
       #mobileNav{
           display: none;
       }
+}
+@media all 
+  and (min-width: 900px) { 
       #main{
            display:flex;
             flex-flow:row wrap;
