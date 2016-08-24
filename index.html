@@ -11,7 +11,18 @@
     
     
 <body>
-    <nav>
+    <nav id="mobileNav">
+<div id="namelogo">Aguero</div>
+    <div class="icon linkOut"><span></span><span></span>
+        </div>
+    <nav class="mobileLinks">
+        <div><a href="#hero">HOME</a>
+        </div><div><a href="#main">ABOUT</a></div>
+        <div><a href="#resume">RESUME</a></div>
+            <div><a href="#footer">CONTACT</a></div>
+    </nav>
+</nav>
+    <nav id="nav">
         <div id="namelogo">Aguero</div>
         <div id="nav-container">
         <div><a href="#hero">HOME</a>
@@ -65,7 +76,29 @@
       <footer id="footer"><h2>Juan Aguero</h2><a href="mailto:aguero.manuel@yahoo.com">Email me: aguero.manuel@yahoo.com</a><br/><p>972-365-0486</p>
       </footer></div>
     <script>
-    
+    $(window).load(function () {
+
+
+
+$(".icon").click(function(){
+	$(this).toggleClass("linkClick linkOut");
+	$(".mobileLinks").slideToggle(250);
+	
+});
+
+
+
+var style = '';
+
+
+  $(".mobileLinks a").each(function( index ) {
+ 	style += '.mobileLinks a:nth-child('+ (index+1) +'):after {animation-delay:' +((index+1)/10)+'s} ';
+   });
+		
+$("head").append($('<style>'+style+'</style>'));
+
+
+});
        
       setInterval( function() {
 var safeColors = ['00','33','66','99','cc','ff'];
