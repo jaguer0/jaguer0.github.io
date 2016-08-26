@@ -268,7 +268,7 @@ transform: translateY(-4px) rotate(0deg);
 }
 #main div{
     background: #CFCFCF;
-    padding:6em;
+    padding:3em;
     font-family: HelveticaNeueLTStd-Bd,Helvetica,Arial,sans-serif;
     font-weight: 400;
     border-bottom: 0.1em solid white;
@@ -304,7 +304,7 @@ transform: translateY(-4px) rotate(0deg);
     font-size: 1.6em;
 }
 /* medium screen */
-@media all and (min-width:800px){
+@media all and (min-width:790px){
     #main{
         flex-flow:row wrap;
     }
