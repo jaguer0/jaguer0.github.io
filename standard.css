@@ -49,7 +49,8 @@ h4{font-family: 'Montserrat', sans-serif;}
   color: #ffffff;
     height: 5em;
 	width: 5em;
-	position: relative;
+	position: fixed;
+    right:0;
 	-webkit-transition: background 0.5s;
 	-moz-transition: background 0.5s;
 	-o-transition: background 0.5s;
@@ -262,7 +263,6 @@ transform: translateY(-4px) rotate(0deg);
     font-family: HelveticaNeueLTStd-Bd,Helvetica,Arial,sans-serif;
     font-weight: 400;
     border-bottom: 0.1em solid white;
-    font-size: .8em;
 }
 #main img{
     vertical-align: top;
@@ -291,7 +291,6 @@ transform: translateY(-4px) rotate(0deg);
     border: 2px solid #fff;
     color: #fff;
     padding: 1em;
-    font-size: .8em;
     border-radius: 10%;
 }
 /* medium screen */
