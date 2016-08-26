@@ -13,8 +13,18 @@ body {
     font-size: 100%;
 }
 #nav{display:none;}
-h4{font-family: 'Montserrat', sans-serif;}
-
+h3{
+    font-family: 'Montserrat', sans-serif;
+    font-size:2.6em;
+    margin: .5em;
+    color:#3783D7;
+}
+h4{
+   font-family: 'Montserrat', sans-serif;
+    font-size:1.6em;
+    margin:0; 
+    color:white;
+}
 #hero, #main,#resume, #footer {flex: 2 100%;}
 
 /* background-colors*/
@@ -253,13 +263,12 @@ transform: translateY(-4px) rotate(0deg);
     display: flex;
     flex-flow: column nowrap;
     text-align: center;
-    border: 0.063em solid white;
-    font-size: 
+    border: 0.063em solid white;s
     
 }
 #main div{
     background: #CFCFCF;
-    padding:2em;
+    padding:6em;
     font-family: HelveticaNeueLTStd-Bd,Helvetica,Arial,sans-serif;
     font-weight: 400;
     border-bottom: 0.1em solid white;
@@ -292,6 +301,7 @@ transform: translateY(-4px) rotate(0deg);
     color: #fff;
     padding: 1em;
     border-radius: 10%;
+    font-size: 1.6em;
 }
 /* medium screen */
 @media all and (min-width:800px){
