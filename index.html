@@ -71,7 +71,7 @@
       </section>
       <section id="resume">
         <div id="r1"><img src="images/Student%20Male%20Filled.png"/><br/>
-            <button class="button" type="button">Education</button>
+            <button class="button1" type="button">Education</button>
             <div class="edu">
             <h3>Interface Web School 06/2016-08/2016</h3>
                 <h4>Foundations + JavaScript<br/>
@@ -79,7 +79,7 @@
                     High School Diploma</h4></div>
           </div>
       <div id="r2"><img src="images/Briefcase.png"/><br/>
-          <button class="button" type="button">Work History</button>
+          <button class="button2" type="button">Work History</button>
           <div class="work">
           <h3>Nebraska Furniture Mart<br/> Sales Specialist	  August 2012-Present</h3><br/>
              <h4> Designated Sales Trainer for the 2015 Grand Opening of the Largest Retail Operation<br/>
@@ -95,9 +95,12 @@
     <script>
         $(document).ready(function () {
         
-        $(".button").on("click",function(){
-    $(".edu, .work").slideToggle();
-});
+        $(".button1").on("click",function(){
+            $(".edu").slideToggle();
+        });
+          $(".button2").on("click",function(){
+            $(".work").slideToggle();
+        });
         
         
         

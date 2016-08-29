@@ -280,7 +280,6 @@ transform: translateY(-4px) rotate(0deg);
 }
 #main img{
     vertical-align: top;
-    height: 100%;
 }
 #resume{
     display: flex;
@@ -300,7 +299,7 @@ transform: translateY(-4px) rotate(0deg);
     vertical-align: top;
     margin: 2em;
 }
-.button{  
+.button1, .button2{  
     display: inline-block;
     background: #9EA6BF;
     border: 2px solid #fff;
