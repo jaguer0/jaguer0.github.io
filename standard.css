@@ -203,8 +203,8 @@ transform: translateY(-4px) rotate(0deg);
 	height: 1px;
 	z-index: 1;
 	background-color: white;
-	-webkit-animation-duration: 2s;
-	animation-duration: 2s;
+	-webkit-animation-duration: 1.5s;
+	animation-duration: 1.5s;
 	-webkit-animation-fill-mode: both;
 	animation-fill-mode: both;
 	-webkit-animation-name: ReturnToNormal;
@@ -320,6 +320,9 @@ transform: translateY(-4px) rotate(0deg);
 #footer a{
     text-decoration: underline;
     color:white;
+}
+h5{
+    font-size:2em;
 }
 /* medium screen */
 /*@media screen and (min-width:790px){
