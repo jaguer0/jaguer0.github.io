@@ -169,6 +169,7 @@ transform: translateY(-4px) rotate(0deg);
 .mobileLinks a{
     display: inline-flex;
 	line-height:4em;
+    font-size:3vh;
 	text-decoration: none;
 	width: 80%;
 	margin-left: 10%;
