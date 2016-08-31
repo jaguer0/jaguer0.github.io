@@ -36,7 +36,7 @@ h4{
 #nav{background-color:whitesmoke;}
 #mobileNav{background-color:whitesmoke;}
 #mypic{
-    height: 74vh;
+    height: 65vh;
     margin: 1em;
 }
 
@@ -46,7 +46,7 @@ h4{
     position: fixed;
     width:100%;
     top:0;
-    height: 10vmin;
+    height: 12vmin;
     display:flex;
     justify-content: space-between;
     z-index: 1000;
@@ -61,8 +61,8 @@ h4{
 }
 .icon{
   color: #ffffff;
-    height: 10vmin;
-	width: 10vmin;
+    height: 12vmin;
+	width: 12vmin;
 	position: relative;
 	-webkit-transition: background 0.5s;
 	-moz-transition: background 0.5s;
@@ -156,7 +156,7 @@ transform: translateY(-4px) rotate(0deg);
     	background-color: #969696;
 	width: 100%;
 	position: absolute;
-	top: 10vmin;
+	top: 12vmin;
 	left: 0px;
 	padding-top: 2em;
 	padding-bottom: 2em;
@@ -250,7 +250,7 @@ transform: translateY(-4px) rotate(0deg);
     flex-flow:column;
     align-items: center;
     -webkit-transition: background-color 0.5s ease-out; 
-    height: 100vh;
+    height: 90vh;
     
        
 }
@@ -259,10 +259,10 @@ transform: translateY(-4px) rotate(0deg);
 #hero h3{
     
     font-family: "Kaushan Script";
-    font-size:6vmin;
+    font-size:2em;
     text-align: center;
-    line-height: 8vmin;
-    margin-top: -4vh;
+    line-height: 1.2em;
+    margin-top: -2vh;
     color:white;
 }
 #main{
