@@ -327,7 +327,7 @@ h5{
     font-size:2em;
 }
 /* medium screen */
-@media screen and (min-width:790px){
+@media (orientation: landscape) {
     #mypic{
     height: 72vh;
     margin: 1em;
