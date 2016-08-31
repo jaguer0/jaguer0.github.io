@@ -328,6 +328,11 @@ h5{
 }
 /* medium screen */
 @media (orientation: landscape) {
+            #hero{
+            display: flex;
+            flex-flow: row-reverse;
+            justify-content: space-around;
+        }
     #mypic{
     height: 72vh;
     margin: 1em;
@@ -347,12 +352,5 @@ h5{
     #me1,#me3,#me5{
         border-right: 0.1em solid white;
     }
-}
-    @media all and (min-width: 900px){
-        #hero{
-            display: flex;
-            flex-flow: row-reverse;
-            justify-content: space-around;
-        }
 }
 
