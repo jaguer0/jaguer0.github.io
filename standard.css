@@ -327,7 +327,17 @@ h5{
     font-size:2em;
 }
 /* medium screen */
-/*@media screen and (min-width:790px){
+@media screen and (min-width:790px){
+    #mypic{
+    height: 72vh;
+    margin: 1em;
+}
+    
+    #hero h3{
+        font-size: 3.5em;
+        line-height: 1.5em;
+        margin-top: 0;
+    }
     #main{
         flex-flow:row wrap;
     }
