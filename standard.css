@@ -36,7 +36,7 @@ h4{
 #nav{background-color:whitesmoke;}
 #mobileNav{background-color:whitesmoke;}
 #mypic{
-    height: 80vh;
+    height: 74vh;
     margin: 1em;
 }
 
@@ -46,7 +46,7 @@ h4{
     position: fixed;
     width:100%;
     top:0;
-    height: 16vmin;
+    height: 10vmin;
     display:flex;
     justify-content: space-between;
     z-index: 1000;
@@ -55,14 +55,14 @@ h4{
     width:20%;
     text-align: center;
     font-family: 'Courgette', cursive;
-    font-size: 10vmin;
+    font-size: 7vmin;
     margin-left:1em;
     color:black;
 }
 .icon{
   color: #ffffff;
-    height: 16vmin;
-	width: 16vmin;
+    height: 10vmin;
+	width: 10vmin;
 	position: relative;
 	-webkit-transition: background 0.5s;
 	-moz-transition: background 0.5s;
@@ -156,10 +156,10 @@ transform: translateY(-4px) rotate(0deg);
     	background-color: #969696;
 	width: 100%;
 	position: absolute;
-	top: 16vmin;
+	top: 10vmin;
 	left: 0px;
-	padding-top: 4em;
-	padding-bottom: 4em;
+	padding-top: 2em;
+	padding-bottom: 2em;
 	display: flex;
     flex-flow: column;
     display: none;
@@ -245,11 +245,13 @@ transform: translateY(-4px) rotate(0deg);
 
 /*rest of body*/
 #hero{
-    padding-top:16vmin;
+    padding-top:10vmin;
     display:flex;
     flex-flow:column;
     align-items: center;
     -webkit-transition: background-color 0.5s ease-out; 
+    height: 100vh;
+    
        
 }
 
@@ -260,7 +262,7 @@ transform: translateY(-4px) rotate(0deg);
     font-size:6vmin;
     text-align: center;
     line-height: 8vmin;
-    margin-top: 0;
+    margin-top: -4vh;
     color:white;
 }
 #main{
