@@ -24,14 +24,14 @@ h4{
    font-family: 'Montserrat', sans-serif;
     font-size:1.7em;
     margin:0; 
-    color:white;
+    color:black;
 }
 #hero, #main,#resume, #footer {flex: 2 100%;}
 
 /* background-colors*/
 #hero{background: #3783D7; }
-#main{ background: whitesmoke; }
-#resume{ background:lightgray;}
+#main{ background:white; }
+#resume{ background:white;}
 #footer{ background:#3783D7; }
 #nav{background-color:whitesmoke;}
 #mobileNav{background-color:whitesmoke;}
@@ -251,6 +251,7 @@ transform: translateY(-4px) rotate(0deg);
     align-items: center;
     -webkit-transition: background-color 0.5s ease-out; 
     height: 90vh;
+    box-shadow: 0px 0px 20px #000000;
     
        
 }
@@ -269,15 +270,15 @@ transform: translateY(-4px) rotate(0deg);
     display: flex;
     flex-flow: column nowrap;
     text-align: center;
-    border: 0.063em solid white;s
+    border: 0.063em solid white;
     
 }
 #main div{
-    background: #CFCFCF;
+    background: white;
     padding:3em;
     font-family: HelveticaNeueLTStd-Bd,Helvetica,Arial,sans-serif;
+    box-shadow: 0px 0px 20px #000000;
     font-weight: 400;
-    border-bottom: 0.1em solid white;
 }
 #main img{
     vertical-align: top;
@@ -287,13 +288,14 @@ transform: translateY(-4px) rotate(0deg);
     flex-flow: column;
     text-align: center;
     
+    
 }
 .edu,.work{
     display: none;
 }
 #r1, #r2{
     padding:2em;
-    border-bottom: 0.1em solid white;
+    box-shadow: 0px 0px 20px #000000;
     
 }
 #resume img{
