@@ -321,11 +321,13 @@ transform: translateY(-4px) rotate(0deg);
     font-family: "Kaushan Script";
     font-size:5vmin;
     line-height: 4vmin;
+    padding-top:2em;
 }
 #footer a{
     text-decoration: underline;
     color:white;
 }
+
 h5{
     font-size:2em;
 }
