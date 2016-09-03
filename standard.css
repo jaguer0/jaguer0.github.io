@@ -36,7 +36,7 @@ h4{
 #nav{background-color:whitesmoke;}
 #mobileNav{background-color:whitesmoke;}
 #mypic{
-    height: 65vh;
+    height: 73vh;
     margin: 1em;
 }
 
@@ -180,6 +180,7 @@ transform: translateY(-4px) rotate(0deg);
 	-o-transition: all 0.5s;
 	transition: all 0.5s;
 	font-weight:500;
+    
 }
 .mobileLinks a:hover{
 	color: white;
@@ -250,7 +251,7 @@ transform: translateY(-4px) rotate(0deg);
     flex-flow:column;
     align-items: center;
     -webkit-transition: background-color 0.5s ease-out; 
-    height: 90vh;
+    height: 100vh;
     box-shadow: 0px 0px 20px #000000;
     
        
@@ -336,7 +337,7 @@ h5{
             justify-content: space-around;
         }
     #mypic{
-    height: 72vh;
+    height: 80vh;
     margin: 1em;
 }
     
