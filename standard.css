@@ -295,7 +295,7 @@ transform: translateY(-4px) rotate(0deg);
 }
 #r1, #r2{
     padding:2em;
-    box-shadow: 0px 0px 20px #000000;
+    box-shadow: -1px 8px 10px #000000
     
 }
 #resume img{
@@ -329,7 +329,7 @@ h5{
     font-size:2em;
 }
 /* medium screen */
-@media (orientation: landscape) {
+@media screen and (min-width:700px) {
             #hero{
             display: flex;
             flex-flow: row-reverse;
@@ -354,5 +354,14 @@ h5{
     #me1,#me3,#me5{
         border-right: 0.1em solid white;
     }
+}
+@media screen and (min-width:1000px){
+    #main{
+        flex-flow:row wrap;
+    }
+    #main div{
+        flex-basis: 33.3%;
+    }
+    
 }
 
