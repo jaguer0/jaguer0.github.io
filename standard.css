@@ -331,6 +331,17 @@ transform: translateY(-4px) rotate(0deg);
 h5{
     font-size:2em;
 }
+@media (orientation:landscape) {
+            #hero{
+            display: flex;
+            flex-flow: row-reverse;
+            justify-content: space-around;
+        }
+    #mypic{
+    height: 80vh;
+    margin: 1em;
+}
+}
 /* medium screen */
 @media screen and (min-width:700px) {
             #hero{
