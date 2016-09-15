@@ -2,6 +2,18 @@
     box-sizing: border-box;
 }
 
+::-webkit-scrollbar {
+    width: 1em;
+}
+ 
+::-webkit-scrollbar-track {
+    background: #555;
+}
+ 
+::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    background:rgb(48, 48, 48);
+}
 body {
     margin:0;
     padding:0;
@@ -74,7 +86,7 @@ h5{
 	transition: background 0.5s;
 }
 .icon:hover{
-    background-color: #9EA6BF;
+    background-color: #555;
 	cursor: pointer;
 }
 .icon span{
@@ -85,6 +97,7 @@ h5{
 	height: 1px;
 	background-color:black;
 }
+
 .icon span:nth-child(1){
 transform: translateY(4px) rotate(0deg);
 	}
@@ -188,11 +201,12 @@ transform: translateY(-4px) rotate(0deg);
 }
 .mobileLinks a:hover{
 	color: white;
-	background-color:#9EA6BF;
+	background-color:#555;
 }
 
 
 .mobileLinks a{
+    text-align: center;
 	position: relative;
 	display: block;
 	overflow: hidden;
