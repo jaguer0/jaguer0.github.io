@@ -53,7 +53,9 @@ h5{
 #nav{background-color:whitesmoke;}
 #mobileNav{background-color:whitesmoke;}
 #mypic{
+    position: relative;
     height: 73vh;
+    max-height: 73vh;
     margin: 1em;
 }
 
