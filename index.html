@@ -108,10 +108,13 @@
         $(".icon").click(function(){
 	   $(this).toggleClass("linkClick linkOut");
 	   $(".mobileLinks").slideToggle(250);
-	
-        });
+       });
     
-        
+         $(".mobileLinks a").click(function() {
+              $(".icon").toggleClass("linkClick linkOut");
+            $(".mobileLinks").slideToggle(250);
+          
+          });
 var style = '';
 
 
