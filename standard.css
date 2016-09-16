@@ -43,6 +43,7 @@ h4{
 h5{
     font-size:2em;
 }
+
 #hero, #main,#resume, #footer {flex: 2 100%;}
 
 /* background-colors*/
