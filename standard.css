@@ -316,6 +316,9 @@ transform: translateY(-4px) rotate(0deg);
 .sr-icons{
     color:#3783D7;
 }
+.sr-icons2{
+    color:#3783D7;
+}
 .edu,.work{
     display: none;
 }
