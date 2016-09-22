@@ -289,7 +289,7 @@ transform: translateY(-4px) rotate(0deg);
 }
 #about{
     width: 100%;
-    padding: 5em 3em;
+    padding: 5em 1em;
     text-align: center;
     background-color: white;
     box-shadow: 0px 0px 20px #000000;
@@ -315,7 +315,7 @@ transform: translateY(-4px) rotate(0deg);
 }
 #main div{
     background: white;
-    padding:3em;
+    padding:2em 1em;
     font-family: HelveticaNeueLTStd-Bd,Helvetica,Arial,sans-serif;
     box-shadow: 0px 0px 20px #000000;
     font-weight: 400;
@@ -398,7 +398,9 @@ transform: translateY(-4px) rotate(0deg);
     height: 80vh;
     margin: 1em;
 }
-    
+    #about{
+        padding: 2em 2em;
+    }
     #hero h3{
         font-size: 2.5em;
         line-height: 1.5em;
