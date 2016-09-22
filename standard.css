@@ -55,9 +55,9 @@ h5{
 #mobileNav{background-color:whitesmoke;}
 #mypic{
     position: relative;
-    height: 73vh;
-    max-height: 73vh;
-    margin: 1em;
+    height: 67vh;
+    max-height: 67vh;
+    margin: 2em;
 }
 
 
@@ -272,13 +272,11 @@ transform: translateY(-4px) rotate(0deg);
     display:flex;
     flex-flow:column;
     align-items: center;
-    -webkit-transition: background-color 0.5s ease-out; 
     height: 100vh;
     box-shadow: 0px 0px 20px #000000;
     
        
 }
-
 
 #hero h3{
     
@@ -288,6 +286,25 @@ transform: translateY(-4px) rotate(0deg);
     line-height: 1.2em;
     margin-top: -2vh;
     color:white;
+}
+#about{
+    width: 100%;
+    padding: 5em 3em;
+    text-align: center;
+    background-color: white;
+    box-shadow: 0px 0px 20px #000000;
+}
+
+#about h2{
+    margin-top: 0;
+    font-size: 3em;
+    font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif;
+    font-weight: 500;
+    color:#3783D7;
+}
+#about p{
+    color:gray;
+    font-size: 1em;
 }
 #main{
     display: flex;
