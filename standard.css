@@ -348,9 +348,12 @@ transform: translateY(-4px) rotate(0deg);
   color:#3783D7;
     margin: .5em;
 }
-.button1, .button2{  
+.button{
+    margin-top: 1em;
+}
+.button, .button1, .button2{  
     display: inline-block;
-    background: #9EA6BF;
+    background: #3783D7;
     border: 2px solid #fff;
     color: #fff;
     padding: 1em;
