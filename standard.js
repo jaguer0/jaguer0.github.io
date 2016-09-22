@@ -1,10 +1,10 @@
 
     window.sr = ScrollReveal();
     sr.reveal('.sr-icons', {
-        duration: 600,
+        duration: 700,
         scale: 0.3,
         distance: '0px'
-    }, 700);
+    }, 800);
     sr.reveal('.sr-resume', {
         duration: 1000,
         delay: 200
