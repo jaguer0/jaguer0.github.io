@@ -433,9 +433,12 @@ color:white;
         
     }
     #nav-container div{
-    width:20%;
-        
-    
+        padding: 0 1em 0 1em;
+        text-align: center;
+    }
+    #nav-container div:hover{
+        background: #555;
+        color: white;
     }
     #nav-container a{
         text-decoration: none;
@@ -443,6 +446,10 @@ color:white;
         font-size: 2.5vmin;
         font-weight: 500
     }
+    #nav-container a:hover{
+        color:white;
+    }
+    
     #hero{
     display: flex;
      flex-flow: row-reverse;
