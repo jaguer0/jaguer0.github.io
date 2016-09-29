@@ -268,6 +268,7 @@ transform: translateY(-4px) rotate(0deg);
 
 /*rest of body*/
 #hero{
+    position: relative;
     padding-top:10vmin;
     display:flex;
     flex-flow:column;
@@ -278,6 +279,10 @@ transform: translateY(-4px) rotate(0deg);
        
 }
 
+.hero-arrow{
+   display: none;
+
+}
 #hero h3{
     
     font-family: "Kaushan Script";
@@ -387,12 +392,56 @@ transform: translateY(-4px) rotate(0deg);
     margin: 1em;
 }
 }
+@media screen and (min-width:660px){
+.hero-arrow{
+display: block;
+position: absolute;
+bottom:1.5em;
+color:white;
+
+} 
+}
 /* medium screen */
 @media screen and (min-width:700px) {
-            #hero{
-            display: flex;
-            flex-flow: row-reverse;
-            justify-content: space-around;
+    #mobileNav{
+        display: none;
+    }
+    #nav{
+        position: fixed;
+        width:100%;
+        top:0;
+        height: 12vmin;
+        display:inline-flex;
+        justify-content: space-between;
+        z-index: 1000;
+        
+    }
+    #nav-container{
+        position: relative;
+        display: inline-flex;
+        justify-content: space-around;
+        height: 12vmin;
+        line-height: 12vmin;
+        width: 50%;
+        right: 1em;
+        
+        
+    }
+    #nav-container div{
+    width:20%;
+        
+    
+    }
+    #nav-container a{
+        text-decoration: none;
+        color:black;
+        font-size: 2.5vmin;
+        font-weight: 500
+    }
+    #hero{
+    display: flex;
+     flex-flow: row-reverse;
+    justify-content: space-around;
         }
     #mypic{
     height: 80vh;
@@ -401,6 +450,7 @@ transform: translateY(-4px) rotate(0deg);
     #about{
         padding: 1.5em 2em;
     }
+
     #hero h3{
         font-size: 2.5em;
         line-height: 1.5em;
@@ -422,6 +472,9 @@ transform: translateY(-4px) rotate(0deg);
     }
     #main div{
         flex-basis: 33.3%;
+    }
+    #nav-container a{
+        font-size: 3vmin;
     }
     
 }
