@@ -389,7 +389,7 @@ transform: translateY(-4px) rotate(0deg);
                 
         }
     .hero-arrow{
-        display: none;
+        display: none;!important!!
     }
     #mypic{
     height: 80vh;
