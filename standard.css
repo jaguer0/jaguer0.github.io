@@ -386,14 +386,16 @@ transform: translateY(-4px) rotate(0deg);
             display: flex;
             flex-flow: row-reverse;
             justify-content: space-around;
+                
         }
+    .hero-arrow{
+        display: none;
+    }
     #mypic{
     height: 80vh;
     margin: 1em;
 }
-    .hero-arrow{
-        display: none;
-    }
+    
 }
 @media screen and (min-width:660px){
 .hero-arrow{
